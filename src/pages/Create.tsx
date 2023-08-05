@@ -1,9 +1,16 @@
+import { styled } from "styled-components";
+import CreateMemo from "../components/create/createMemo";
+
 function Create() {
   return (
-    <div>
-      <h1>Create</h1>
-    </div>
+    <CreateContainer>
+      <CreateMemo />
+    </CreateContainer>
   );
 }
 
 export default Create;
+
+const CreateContainer = styled.section`
+  
+`;
