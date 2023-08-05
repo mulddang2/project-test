@@ -1,19 +1,15 @@
 import styled from "styled-components";
-import Memo from "../components/home/memo";
+import MemoList from "../components/home/MemoList";
 
 function Home() {
   return (
     <HomeContainer>
-      <Memo /> 
-      <Memo /> 
-      <Memo /> 
+      <MemoList />
     </HomeContainer>
-
   );
 }
 
 export default Home;
 
 const HomeContainer = styled.section`
-border: 1px solid red;
-` 
+`;
